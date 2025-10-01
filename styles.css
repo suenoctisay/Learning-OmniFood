@@ -38,6 +38,42 @@ html{
 
 
 
+/* navigation */
+/* ****************************************** */
+.main-nav-list{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited{
+  text-decoration: none;
+  font-size: var(--regular);
+  font-weight: var(--medium);
+  color: var(--neutral-10);
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active{
+  color: var(--primary-dark);
+}
+
+.main-nav-link.nav-active:link,
+.main-nav-link.nav-active:visited{
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background-color: var(--primary);
+  color: var(--neutral-1);
+}
+.main-nav-link.nav-active:hover,
+.main-nav-link.nav-active:active{
+  background-color: var(--primary-dark);
+}
+/* ****************************************** */
+
+
+
 /* hero */
 /* ****************************************** */
 .hero-section{
