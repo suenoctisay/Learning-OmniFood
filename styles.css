@@ -21,6 +21,24 @@ html{
 
 
 
+/* header */
+/* ****************************************** */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-light);
+  padding: 1rem 3rem;
+}
+
+.header-logo{
+  height: 2rem;
+}
+/* ****************************************** */
+
+
+
+/* hero */
 /* ****************************************** */
 .hero-section{
   background-color: var(--primary-light);
@@ -138,7 +156,7 @@ html{
 }
 
 .hero-img{
-  width: 100%;
+  width: 90%;
 }
 /* ****************************************** */
 
