@@ -1,0 +1,51 @@
+/**********************************************************************************************************************/
+
+/* Variables for the application styles 8 */
+
+/**********************************************************************************************************************/
+
+:root{
+/*-- COLORS --*/
+  --primary: #E67E22;
+
+  --neutral-1: #F8F9FA;
+  --neutral-2: #F1F3F5;
+  --neutral-3: #E9ECEF;
+  --neutral-4: #DEE2E6;
+  --neutral-5: #CED4DA;
+  --neutral-6: #A8A9AB;
+  --neutral-7: #6A7178;
+  --neutral-8: #4F575E;
+  --neutral-9: #272B30;
+  --neutral-10: #101213;
+
+
+/*-- FONTS --*/
+  --header: 1rem; /* 16px */
+  --footer: 0.75rem; /* 12px */
+
+  /* size */
+  --xx-small: 0.625rem; /* 10px */
+  --x-small: 0.75rem; /* 12px */
+  --small: 0.875rem; /* 14px */
+  --regular: 1rem; /* 16px */
+  --large: 1.125rem; /* 18px */
+  --x-large: 1.25rem; /* 20px */
+  --xx-large: 1.5rem; /* 24px */
+  --xxx-large: 1.875rem; /* 30px */
+  --huge: 2.25rem; /* 36px */
+  --x-huge: 2.75rem; /* 44px */
+  --xx-huge: 3.25rem; /* 52px */
+  --xxx-huge: 3.875rem; /* 62px */
+  --massive: 4.625rem; /* 74px */
+  --x-massive: 5.375rem; /* 86px */
+  --xx-massive: 6.125rem; /* 98px */
+
+  /* weight */
+  --light: 100;
+  --regular: 400; 
+  --medium: 500;
+  --bold: 700;
+  --x-bold: 800;
+  --xx-bold: 900;
+}
