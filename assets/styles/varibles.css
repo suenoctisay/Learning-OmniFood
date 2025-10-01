@@ -7,6 +7,12 @@
 :root{
 /*-- COLORS --*/
   --primary: #E67E22;
+  --primary-light: #FDF2E9;
+  --primary-dark: #B3541E;
+
+  --secondary: #2C3E50;
+  --secondary-light: #EAF0F4;
+  --secondary-dark: #1A252F;
 
   --neutral-1: #F8F9FA;
   --neutral-2: #F1F3F5;
