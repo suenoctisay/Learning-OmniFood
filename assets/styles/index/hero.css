@@ -1,7 +1,7 @@
 /* hero */
 /* ****************************************** */
 .hero-section{
-  background-color: var(--primary-light);
+  background-color: var(--primary-light-1);
   padding: 3rem;
 }
 
@@ -14,10 +14,9 @@
   align-items: center;
 }
 
-.hero-headding-primary{
-  font-size: var(--xx-massive);
-  font-weight: var(--xx-bold);
-  text-transform: uppercase;
+.hero-heading-primary{
+  font-size: var(--xx-huge);
+  font-weight: var(--bold);
   color: var(--neutral-9);
   line-height: 1.05;
   letter-spacing: -0.5px;

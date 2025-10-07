@@ -1,0 +1,103 @@
+/* how it works */
+/* ****************************************** */
+.how-it-works-section{
+  padding: 3rem;
+}
+
+.how-it-works-container{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+/* ****************************************** */
+
+
+
+/* heading */
+/* ****************************************** */
+.how-it-works-heading-secundary{
+  font-size: var(--xxx-large);
+  font-weight: var(--x-bold);
+  color: var(--neutral-9);
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3rem;
+}
+
+.how-it-works-subheading{
+  display: block;
+  font-size: var(--x-huge);
+  font-weight: var(--medium);
+  color: var(--primary-dark);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.how-it-works-heading-tertiary{
+  font-size: var(--xxx-large);
+  font-weight: var(--x-bold);
+  color: var(--neutral-9);
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 1rem;
+}
+
+.how-it-works-step-description{
+  font-size: var(--large);
+  font-weight: var(--regular);
+  color: var(--neutral-7);
+  line-height: 1.5;
+  text-align: justify;
+}
+/* ****************************************** */
+
+
+
+/* image */
+/* ****************************************** */
+.how-it-works-step-img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-it-works-step-img::before,
+.how-it-works-step-img::after{
+  content: "";
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.how-it-works-step-img::before{
+  background-color: var(--primary-light-1);
+  width: 45%;
+  padding-bottom: 45%;
+  z-index: -2;
+}
+
+.how-it-works-step-img::after{
+  background-color: var(--primary-light-2);
+  width: 35%;
+  padding-bottom: 35%;
+  z-index: -1;
+}
+
+.how-it-works-img{
+  width: 25%;
+}
+/* ****************************************** */
+
+
+
+/* steps */
+/* ****************************************** */
+.how-it-works-step-number{
+  font-size: var(--xx-huge);
+  font-weight: var(--xx-bold);
+  color: var(--neutral-5);
+  margin-bottom: 1rem;
+}
+
+/* ****************************************** */
