@@ -1,0 +1,44 @@
+/* featured */
+/* ****************************************** */
+.featured-section{
+  padding: 3rem;
+}
+
+.featured-container{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+/* ****************************************** */
+
+
+
+/* heading */
+/* ****************************************** */
+.featured-heading{
+  font-size: var(--xx-large);
+  font-weight: var(--medium);
+  color: var(--primary-dark);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+/* ****************************************** */
+
+
+
+/* image */
+/* ****************************************** */
+.featured-logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-logo{
+  height: 2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+/* ****************************************** */
