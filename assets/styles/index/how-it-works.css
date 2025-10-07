@@ -14,13 +14,22 @@
 
 /* heading */
 /* ****************************************** */
-.how-it-works-heading-secundary{
+.how-it-works-heading{
   font-size: var(--large);
   font-weight: var(--x-bold);
   color: var(--neutral-9);
   line-height: 1.05;
   letter-spacing: -0.5px;
   margin-bottom: 3rem;
+}
+
+.how-it-works-heading-secondary{
+  font-size: var(--xxx-large);
+  font-weight: var(--x-bold);
+  color: var(--neutral-9);
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 1rem;
 }
 
 .how-it-works-subheading{
@@ -33,14 +42,7 @@
   letter-spacing: 0.5rem;
 }
 
-.how-it-works-heading-tertiary{
-  font-size: var(--xxx-large);
-  font-weight: var(--x-bold);
-  color: var(--neutral-9);
-  line-height: 1.05;
-  letter-spacing: -0.5px;
-  margin-bottom: 1rem;
-}
+
 
 .how-it-works-step-description{
   font-size: var(--large);

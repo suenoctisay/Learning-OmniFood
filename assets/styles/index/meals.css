@@ -1,0 +1,118 @@
+/* meals section */
+/* ****************************************** */
+.meals-section{
+  padding: 3rem;
+}
+
+.meals-container{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.btn-center{
+  text-align: center;
+  margin-top: 3rem;
+}	
+/* ****************************************** */
+
+
+
+/* heading */
+/* ****************************************** */
+.meals-heading,
+.meals-heading-secondary{
+  font-size: var(--large);
+  font-weight: var(--x-bold);
+  color: var(--neutral-9);
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3rem;
+}
+
+.meals-heading-secondary{
+  margin-bottom: 0;
+}
+
+.meals-subheading{
+  display: block;
+  font-size: var(--xx-large);
+  font-weight: var(--medium);
+  color: var(--primary-dark);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.meals-description{
+  font-size: var(--regular);
+  font-weight: var(--regular);
+  color: var(--neutral-7);
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+/* ****************************************** */
+
+
+
+/* img */
+/* ****************************************** */
+.meals-img{
+  width: 100%;
+}
+
+.material-symbols-outlined{
+  color: var(--primary);
+}
+/* ****************************************** */
+
+
+
+/* attributes */
+/* ****************************************** */
+.meals{
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+  padding: 0 2rem 2rem 2rem;
+}
+
+.meals:hover{
+  box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,0.2);
+  transform: translateY(-0.5rem);
+  transition: all 0.3s;
+}
+
+.meals-tag{
+  display: inline-block;
+  font-size: var(--x-small);
+  font-weight: var(--bold);
+  color: var(--neutral-1);
+  background-color: var(--primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+.meals-tag--vegan{
+  background-color: var(--tertiary);
+}
+
+.meals-attributes,
+.diets-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.meals-attribute-item,
+.diets-list-item{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: var(--regular);
+  font-weight: var(--regular);
+  color: var(--neutral-7);
+  text-align: justify;
+  line-height: 1.5;
+}
+/* ****************************************** */
